@@ -1,0 +1,18 @@
+step 1: create a repository in a git 'translator'
+
+step 2: clone the repository in your local machine
+
+step 3: create a virtual environment
+py -m venv env
+
+step 4: activate the virtual environment
+.\env\scripts\activate
+
+step 5:install django
+pip install django
+
+step 6:create a django project
+django-admin startproject translator
+
+step 7: create a django app
+python manage.py startapp core
